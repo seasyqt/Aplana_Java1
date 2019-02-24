@@ -10,11 +10,15 @@ public class task9
         int mass[] = new int [numMass];
         System.out.println("Введите в массив числа");
         for (int i = 0; i < mass.length ; i++) {
-            mass[i] = 2*scan.nextInt();
+            mass[i] = scan.nextInt();
 
         }
 
-        System.out.println("Массив получен : " + Arrays.toString(mass));
+        System.out.println("Массив получен : " );
+        for (int i = 0; i < mass.length; i++) {
+            System.out.print(mass[i]*2 + " ");
+
+        }
 
     }
 }
