@@ -13,15 +13,15 @@ public class task10 {
         System.out.println("Введите числа : ");
         for (int i = 0; i < numStrok ; i++) {
             for (int j = 0; j < numStolbec ; j++) {
-                if (i==0){ mass[i][j] = 3*scan.nextInt(); }
-                else { mass[i][j] = scan.nextInt(); }
+                mass[i][j] = scan.nextInt();
+
             }
             System.out.println();
         }
-        System.out.println("Мы получили такой массив : ");
-        for (int i = 0; i < numStrok ; i++) {
+        System.out.println("Первая строка массива : ");
+        for (int i = 0; i < 1 ; i++) {
             for (int j = 0; j < numStolbec; j++) {
-                System.out.print(mass[i][j] + " "); }
+                System.out.print((mass[i][j]*3) + " "); }
             System.out.println();
         }
     }
