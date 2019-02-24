@@ -10,7 +10,7 @@ public class task6 {
         b = scan.nextInt();
         c = scan.nextInt();
         double result = (a+b+c)/3; //Либо можно было оставить объявление переменных с int , а тут переопределить 
-        double sresult = result/2;
+        int sresult = (int)result/2;
 
         System.out.println("Среднее арифметическое число " + result);
         System.out.println("Деление " + result + " на 2 : " + sresult);
