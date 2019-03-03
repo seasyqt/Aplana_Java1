@@ -8,7 +8,7 @@ public class task14
         Scanner scan = new Scanner(System.in);
         System.out.println("Введите число : ");
         String s = scan.nextLine();
-        int x = Integer.parseInt(s);
+        int x = (int)Double.parseDouble(s);
         double y = (double) x;
         System.out.println("Строка : " + s + "\nЦелое число : " + x + "\nДробное число : " + y);
 
