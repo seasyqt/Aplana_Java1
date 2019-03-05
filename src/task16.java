@@ -11,7 +11,7 @@ public class task16 {
             while ((s = reader.readLine()) != null){
                 System.out.println(s);
             }
-
+    reader.close();
         }catch (IOException exc){
             System.out.println("Ошибочка вышла " + exc);
         }
