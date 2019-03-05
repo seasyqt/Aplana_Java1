@@ -15,7 +15,8 @@ public class task17 {
             while (!(s = reader.readLine()).equals("stop")){
                 writer.write(s);
             }
-
+            reader.close();
+            writer.close();
         }catch (Exception e ){
             e.printStackTrace();
         }
