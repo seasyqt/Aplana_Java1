@@ -13,7 +13,7 @@ public class task16 {
             }
 
         }catch (IOException exc){
-            System.out.println("Ошибочка вышла" + exc);
+            System.out.println("Ошибочка вышла " + exc);
         }
 
     }
